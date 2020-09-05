@@ -1,7 +1,6 @@
 {
   "name": "prospect",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "author": {
     "name": "Mohammad Abdul Ahad Chowdhury",
     "email": "ahad@maacpiash.com",
@@ -9,6 +8,9 @@
   },
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
     "tslib": "^2.0.1"
   },

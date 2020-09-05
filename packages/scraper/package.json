@@ -1,0 +1,18 @@
+{
+  "name": "@prospect/scraper",
+  "version": "1.0.0",
+  "main": "dist/scraper.js",
+  "author": {
+    "name": "Mohammad Abdul Ahad Chowdhury",
+    "email": "ahad@maacpiash.com",
+    "url": "https://www.maacpiash.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.21"
+  }
+}
