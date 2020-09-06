@@ -8,6 +8,9 @@
     "url": "https://www.maacpiash.com"
   },
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node src/server.ts"
+  },
   "dependencies": {
     "rss-converter": "^1.1.6"
   }

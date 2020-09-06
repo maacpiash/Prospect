@@ -8,6 +8,9 @@
     "url": "https://www.maacpiash.com"
   },
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node src/scraper.ts"
+  },
   "dependencies": {
     "axios": "^0.20.0",
     "cheerio": "^1.0.0-rc.3"
