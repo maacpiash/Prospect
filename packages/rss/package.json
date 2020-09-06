@@ -1,0 +1,14 @@
+{
+  "name": "@prospect/rss",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "author": {
+    "name": "Mohammad Abdul Ahad Chowdhury",
+    "email": "ahad@maacpiash.com",
+    "url": "https://www.maacpiash.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rss-converter": "^1.1.6"
+  }
+}
