@@ -7,7 +7,7 @@
     "email": "ahad@maacpiash.com",
     "url": "https://www.maacpiash.com"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "scripts": {
     "dev": "nodemon --watch src -e ts --exec ts-node src/server.ts"
   },

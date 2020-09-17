@@ -6,7 +6,7 @@
     "email": "ahad@maacpiash.com",
     "url": "https://www.maacpiash.com"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "private": true,
   "workspaces": [
     "packages/*"
