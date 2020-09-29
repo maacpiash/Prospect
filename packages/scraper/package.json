@@ -9,11 +9,17 @@
   },
   "license": "AGPL-3.0-only",
   "scripts": {
+    "build": "tsc",
     "dev": "nodemon --watch src -e ts --exec ts-node src/scraper.ts"
   },
   "dependencies": {
+    "@nestjs/common": "^7.4.4",
+    "@nestjs/core": "^7.4.4",
+    "@nestjs/platform-fastify": "^7.4.4",
     "axios": "^0.20.0",
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.21"

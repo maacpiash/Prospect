@@ -14,7 +14,18 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-import listLinks from './helpers'
+import { NestFactory } from '@nestjs/core'
+import {
+  FastifyAdapter,
+  NestFastifyApplication,
+} from '@nestjs/platform-fastify'
+import { ParserModule } from './module'
 
-listLinks('https://devblogs.microsoft.com', 'h5.entry-title > a')
-  .then(links => links.forEach(link => console.log(link)))
+async function bootstrap() {
+  const app = await NestFactory.create<NestFastifyApplication>(
+    ParserModule,
+    new FastifyAdapter(),
+  )
+  await app.listen(4100)
+}
+bootstrap()
